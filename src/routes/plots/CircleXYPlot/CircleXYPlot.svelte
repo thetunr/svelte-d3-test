@@ -24,7 +24,7 @@
 	let hoveredData;
 </script>
 
-<h1>Study longer, score better!</h1>
+<h1>Hours Studied vs. Score</h1>
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
 	class="chart-container"

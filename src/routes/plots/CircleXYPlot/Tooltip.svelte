@@ -8,7 +8,7 @@
 	class="tooltip"
 	style="position: absolute;
   top: {yScale(data.hours)}px;
-  left: {xScale(data.grade)}px"
+  left: {xScale(data.score)}px"
 >
 	<h1>{data.name}</h1>
 	<p>{data.hours} hours studied</p>
