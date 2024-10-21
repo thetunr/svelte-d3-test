@@ -1,3 +1,4 @@
+<!-- https://observablehq.com/@d3/density-contours -->
 <script>
 	import { onMount } from 'svelte';
 	import * as d3 from 'd3';
