@@ -16,6 +16,7 @@
 	onMount(async () => {
 		// Load the data
 		data = await d3.tsv('../../data/faithful.tsv');
+		console.log(window.location.pathname);
 
 		// Create the horizontal and vertical scales.
 		const x = d3
