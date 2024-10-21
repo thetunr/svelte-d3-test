@@ -15,7 +15,10 @@
 
 	onMount(async () => {
 		// Load the data
-		data = await d3.tsv('./src/data/faithful.tsv');
+		data = await d3.tsv(
+			'https://raw.githubusercontent.com/thetunr/svelte-d3-test/refs/heads/main/src/data/faithful.tsv'
+		);
+		console.log(window.location.pathname);
 
 		// Create the horizontal and vertical scales.
 		const x = d3
