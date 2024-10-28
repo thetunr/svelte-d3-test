@@ -1,8 +1,9 @@
 <script>
 	import LinePlot from './LinePlot.svelte';
-	import CirclePlot from './CirclePlot.svelte';
 	import CircleXYPlot from './CircleXYPlot/CircleXYPlot.svelte';
 	import ContourPlot from './ContourPlot.svelte';
+	import BouquetPlot from './BouquetPlot.svelte';
+	import Scrollable from './Scrollable.svelte';
 </script>
 
 <svelte:head>
@@ -13,7 +14,6 @@
 <div class="text-column">
 	<h1 class="chart-header">Line Plot</h1>
 	<LinePlot />
-	<!-- <CirclePlot /> -->
 	<h1 class="chart-header">Dot Plot</h1>
 	<CircleXYPlot />
 	<div class="chart-header">
@@ -21,6 +21,10 @@
 		<h2>(Static)</h2>
 	</div>
 	<ContourPlot />
+	<h1 class="chart-header">Bouquet Plot</h1>
+	<BouquetPlot />
+	<h1 class="chart-header">Scrollable</h1>
+	<Scrollable />
 </div>
 
 <style>
