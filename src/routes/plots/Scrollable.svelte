@@ -38,10 +38,6 @@
 		background-color: aliceblue;
 	}
 
-	.scroller {
-		display: inline-block;
-	}
-
 	section {
 		height: 80vh;
 	}
